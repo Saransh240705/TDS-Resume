@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap");
 
-/* Overall page styling */
+
 * {
   margin: 0;
   padding: 0;
@@ -18,19 +18,16 @@ body {
   line-height: 1.6;
 }
 
-/* Container for consistent max-width */
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 2rem;
 }
 
-/* Section spacing */
 section {
   padding: 4rem 0;
 }
 
-/* Utility classes */
 .text-center {
   text-align: center;
 }
@@ -46,7 +43,7 @@ section {
   background-clip: text;
 }
 
-/* Improved button styles */
+
 .btn {
   display: inline-block;
   padding: 0.75rem 1.5rem;
@@ -65,7 +62,6 @@ section {
   box-shadow: 0 10px 25px rgba(99, 102, 241, 0.4);
 }
 
-/* Enhanced navbar */
 .navbar {
   position: sticky;
   top: 0;
@@ -108,7 +104,6 @@ section {
   color: #6735c8;
 }
 
-/* Enhanced hero section */
 .hero {
   min-height: 80vh;
   display: flex;
@@ -150,7 +145,7 @@ section {
   margin-top: 1rem;
 }
 
-/* Projects section styling */
+
 .projects {
   padding: 4rem 0;
   background: #0f172a;
@@ -159,7 +154,7 @@ section {
 .projects-title {
   font-size: 3rem;
   font-weight: 700;
-  color: #8b5cf6; /* Fallback color */
+  color: #8b5cf6;
   text-align: center;
   margin-bottom: 0.5rem;
   background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #ec4899 100%);
@@ -206,7 +201,7 @@ section {
   }
 }
 
-/* Enhanced responsive design for 3-column projects layout */
+
 @media (max-width: 1024px) {
   .projects-grid {
     grid-template-columns: repeat(2, 1fr) !important;
@@ -326,7 +321,6 @@ section {
   transform: translateY(-1px);
 }
 
-/* About section */
 .about {
   padding: 2rem;
   max-width: 1080px;
@@ -336,7 +330,7 @@ section {
 .about-title {
   font-size: 2.5rem;
   font-weight: 600;
-  color: #8b5cf6; /* Fallback color */
+  color: #8b5cf6;
   background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #ec4899 100%);
   background-size: 200% 200%;
   -webkit-background-clip: text;
@@ -413,7 +407,7 @@ section {
   font-weight: 500;
 }
 
-/* Skills/Qualities Grid */
+
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -473,7 +467,7 @@ section {
   line-height: 1.5;
 }
 
-/* Right side image */
+
 .about-content > div:last-child {
   flex: 1;
   display: flex;
@@ -489,7 +483,7 @@ section {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
-/* Contact section styling */
+
 .contact {
   padding: 4rem 0;
   background: #1a2332;
@@ -660,7 +654,6 @@ section {
   transform: translateY(0);
 }
 
-/* Responsive Design for Contact */
 @media (max-width: 768px) {
   .contact-grid {
     grid-template-columns: 1fr;
@@ -680,7 +673,7 @@ section {
   }
 }
 
-/* Footer */
+
 footer {
   background: #0f172a;
   text-align: center;
@@ -688,7 +681,7 @@ footer {
   border-top: 1px solid rgba(99, 102, 241, 0.2);
 }
 
-/* Typography improvements */
+
 h1,
 h2,
 h3 {
@@ -701,7 +694,7 @@ h2 {
   margin-bottom: 0.5rem;
 }
 
-/* Skills Section */
+
 .skills {
   padding: 4rem 0;
   background: #1a2332;
@@ -712,7 +705,7 @@ h2 {
   font-weight: 700;
   text-align: center;
   margin-bottom: 0.5rem;
-  color: #8b5cf6; /* Fallback color */
+  color: #8b5cf6;
   background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #ec4899 100%);
   background-size: 200% 200%;
   -webkit-background-clip: text;
@@ -875,7 +868,7 @@ h2 {
   box-shadow: 0 5px 15px rgba(99, 102, 241, 0.2);
 }
 
-/* Education Section */
+
 .education {
   padding: 4rem 0;
   background: #0f172a;
@@ -886,7 +879,7 @@ h2 {
   font-weight: 700;
   text-align: center;
   margin-bottom: 0.5rem;
-  color: #8b5cf6; /* Fallback color */
+  color: #8b5cf6;
   background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #ec4899 100%);
   background-size: 200% 200%;
   -webkit-background-clip: text;
@@ -1037,7 +1030,6 @@ h2 {
   margin: 0;
 }
 
-/* Timeline connector (optional visual enhancement) */
 .education-item:not(:last-child)::after {
   content: "";
   position: absolute;
@@ -1048,7 +1040,6 @@ h2 {
   background: linear-gradient(180deg, rgba(99, 102, 241, 0.3), transparent);
 }
 
-/* Responsive design for education section */
 @media (max-width: 768px) {
   .education {
     padding: 3rem 0;
@@ -1129,7 +1120,6 @@ h2 {
   }
 }
 
-/* Gradient animation for titles */
 @keyframes gradient-shift {
   0% {
     background-position: 0% 50%;
@@ -1152,7 +1142,7 @@ h2 {
   animation: gradient-shift 3s ease infinite;
 }
 
-/* Responsive design for skills section */
+
 @media (max-width: 1200px) {
   .skills-grid-main {
     grid-template-columns: repeat(2, 1fr);
